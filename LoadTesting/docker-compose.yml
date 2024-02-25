@@ -1,0 +1,25 @@
+version: '3.4'
+
+networks:
+  k6:
+#   grafana_k6:
+
+services:
+  grafana_k6:
+    image: ${DOCKER_REGISTRY-}grafanak6
+    build:
+      context: .
+      dockerfile: Grafana_k6/Dockerfile
+
+  k6:
+    image: grafana
+#    entrypoint: /bin/sh
+#    user: root
+    networks:
+      - k6
+    ports:
+      - "6565:6565"
+    # environment:
+    #   - K6_OUT=influxdb=http://influxdb:8086/k6
+    volumes:
+      - ./scripts:/scripts
