@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grafana_k6", "Grafana_k6\Gr
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A0E02F22-B54C-443E-993C-8D8D09DF2FC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JmeterDsl", "..\JmeterDsl\JmeterDsl.csproj", "{0DA62122-C60A-45E2-8637-B04EE9ABF955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JmeterDsl", "..\JmeterDsl\JmeterDsl.csproj", "{0DA62122-C60A-45E2-8637-B04EE9ABF955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBomber_LoadTesting", "..\NBomber_LoadTesting\NBomber_LoadTesting.csproj", "{59234D54-669D-42AA-982F-14D8562E1F97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0DA62122-C60A-45E2-8637-B04EE9ABF955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA62122-C60A-45E2-8637-B04EE9ABF955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA62122-C60A-45E2-8637-B04EE9ABF955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59234D54-669D-42AA-982F-14D8562E1F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59234D54-669D-42AA-982F-14D8562E1F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59234D54-669D-42AA-982F-14D8562E1F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59234D54-669D-42AA-982F-14D8562E1F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
